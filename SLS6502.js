@@ -50,8 +50,12 @@ const dot = {
     move: function(u) {
         const p = this.track.getPointAtLength(u * this.track.getTotalLength());
 	let y = p.y - (this.sprite.getBBox().height)/2;
-//	console.log("y:" + y );
         this.sprite.setAttribute("transform", `translate(${p.x}, ${y})`);
+    },
+
+    reset: function() {
+	console.log("reset");
+	this.move(0);
     }
 };
 
@@ -65,20 +69,23 @@ const anim = {
     
     run: function() {
         let u = Math.min((Date.now() - this.tZero) / this.duration, 1);
-        
+	var finished = false;
+	
         if (u < 1) {
             // Keep requesting frames, till animation is ready
             requestAnimationFrame(() => this.run());
         } else {
-            this.onFinish();
+            finished = true;
         }
-        
-        dot.move(u);
+	
+	dot.move(u);
+
+	if (finished) this.onFinish();
+
     },
     
     onFinish: function() {
-        // Schedule the animation to restart
-        // setTimeout(() => this.start(this.duration), 1000);
+	dot.reset();
     }
 };
 
