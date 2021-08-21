@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg829"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="SLS6502Plain.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs824" />
+  <sodipodi:namedview
+     id="base"
+     inkscape:cx="257.5"
+     inkscape:cy="247.5"
+     inkscape:document-units="px"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     units="px"
+     scale-x="1"
+     showborder="false"
+     inkscape:lockguides="false"
+     inkscape:zoom="1"
+     inkscape:window-width="1296"
+     inkscape:window-height="847"
+     inkscape:window-x="98"
+     inkscape:window-y="42"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg829"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0" />
+  <metadata
+     id="metadata827">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <circle
+     style="display:inline;fill:#0000e4;fill-opacity:1;stroke:#0000e4;stroke-width:1.98326;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="ABV"
+     cx="10"
+     cy="10"
+     r="9.0083704"
+     inkscape:label="ABV">
+    <desc
+       id="desc3495">Address Value that can flow along address bus paths</desc>
+    <title
+       id="title3493">Address Bus Value</title>
+  </circle>
+  <rect
+     style="fill:none;stroke:#0000e4;stroke-width:8.2509;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="ABB"
+     width="412.4783"
+     height="50.008007"
+     x="18.760843"
+     y="191.35616">
+    <title
+       id="title1826">Address Bus Buffer</title>
+  </rect>
+  <rect
+     style="fill:#ff5555;stroke-width:1.33945"
+     id="MC"
+     width="94.458336"
+     height="265.91666"
+     x="632.77081"
+     y="84.541656">
+    <desc
+       id="desc1824">Address Bus Decoding logic</desc>
+    <title
+       id="title1822">Memory Controller</title>
+  </rect>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0000e4;stroke-width:8.53052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 431.24788,218.64208 201.5142,1.46969"
+     id="ABB-MC"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:label="ABB-MC" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:bold;font-size:42.6667px;line-height:1.25;font-family:Courier;fill:#000000;fill-opacity:1;stroke:none;-inkscape-font-specification:'Courier, Bold';font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     x="21"
+     y="231"
+     id="ABBValue"
+     inkscape:label="ABBValue"><tspan
+       sodipodi:role="line"
+       id="ABBValueText"
+       x="21"
+       y="231">0000000000000000</tspan></text>
+</svg>
