@@ -62,7 +62,7 @@ class Sprite {
 
     reset() {
 	// console.log("reset");
-	this.move(0);
+	// this.move(0);
     }
 };
 
